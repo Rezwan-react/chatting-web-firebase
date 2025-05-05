@@ -1,0 +1,76 @@
+
+.main_from{
+    width: 479px;
+    @apply bg-gradient-to-r from-[#4D5E63] to-[#24393F];
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+  
+}
+.LoginHead{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    @apply font-Poppins;
+}
+.login_form label{
+    font-size: 16px;
+    font-weight: 500;
+    @apply font-Poppins;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.login_form input{
+    width: 419px;
+    height: 50px;
+    border: 2px solid #95A0A4;
+    border-radius: 7px;
+    background: transparent;
+    outline: none;
+    padding-left: 20px;
+    color: #fff;
+}
+.login_form .error{
+    font-size: 15px;
+    font-weight: 400;
+    @apply font-Poppins;
+    color: yellow;
+}
+.loginButton{
+    width: 419px;
+    height: 50px;
+    border: 2px solid #95A0A4;
+    background: #A5D9D0;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    @apply font-Poppins;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.loginButton:active{
+    background: #89C3B5;
+    transform: scale(0.98);
+}
+.pass{
+    position: relative;
+}
+.eyeIcons{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    /* cursor: pointer; */
+
+}
+

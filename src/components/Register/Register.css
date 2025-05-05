@@ -1,0 +1,98 @@
+.reg_form{
+    width: 479px;
+    background: #424A6D;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+  
+}
+.RegHead{
+    font-size: 25px;
+    font-weight: 700;
+    @apply font-Poppins;
+    color: #fff;   
+}
+.reg_form label{
+    font-size: 18px;
+    font-weight: 400;
+    @apply font-Poppins;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.reg_form input{    
+    width: 419px;
+    height: 50px;
+    border: 2px solid #95A0A4;
+    border-radius: 7px;
+    background: transparent;
+    outline: none;
+    padding-left: 20px;
+    color: #fff;
+   
+}
+.reg_form .error{
+    font-size: 15px;
+    font-weight: 400;
+    @apply font-Poppins;
+    color: #EEEEEE;
+}
+.RegPass{
+    position: relative;
+}
+.RegEyeIcons{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    /* cursor: pointer; */
+
+}
+.conPass{
+    position: relative;
+}
+.RegButton{
+    width: 419px;
+    height: 50px;
+    border: 2px solid #95A0A4;
+    background: #EF5A6F;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    @apply font-Poppins;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.RegButton:hover{
+    background: #FF3D9D;
+  color: white;
+}
+
+.RegButton:active{
+    transform: scale(0.98);
+}
+.loader{
+    width: 419px;
+    height: 50px;
+    border: 2px solid #95A0A4;
+    background: #EF5A6F;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    @apply font-Poppins;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
